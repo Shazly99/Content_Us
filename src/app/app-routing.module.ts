@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'home',pathMatch:'full'},
+  {path:'',redirectTo:'content',pathMatch:'full'},
   {path:'home',component:HomeComponent},
   {path:'content',component:ContentComponent},
   {path:'**',component:NotFoundComponent}
