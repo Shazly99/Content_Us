@@ -1,0 +1,116 @@
+* {
+  direction: rtl;
+}
+body {
+  background-color: red !important;
+}
+.content__header {
+  background-color: #12123c !important;
+  height: calc(215px - 80.51px) !important;
+  position: relative;
+  .head {
+    position: absolute;
+    height: 0px;
+    font-family: "Tajawal";
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    font-size: 30px !important;
+    bottom: 46px;
+    right: 36px;
+  }
+  .head__link {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 66px;
+    right: 36px;
+    a {
+      text-decoration: none;
+      color: #8a8aa5;
+    }
+  }
+}
+
+.light {
+}
+
+.container-form {
+  background-color: #f7f7fa !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .form {
+    width: calc(100% - 43px) !important;
+    height: calc(100% - 93px);
+    background-color: white !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    // overflow:  hidden;
+
+    .content__form {
+      display: flex;
+      // background-color: red;
+      height: 100% !important;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      padding-right: 50px;
+      input,
+      textarea {
+        width: 505px;
+        height: 60px;
+        border: 1px solid #dadada;
+        border-radius: 10px;
+        padding: 0 20px;
+        outline: none;
+      }
+      
+  
+      // ::placeholder {
+      //   padding: 30px;
+      // }
+      textarea {
+        resize: none;
+        height: 208px;
+        padding: 15px 20px;
+      }
+      .submit_form {
+        width: 505px;
+        height: 60px;
+        border-radius: 16px;
+        border: none;
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        background-color: #12123c;
+      }
+    }
+    .content__map {
+      img {
+        width: 642px;
+        height: 508px;
+        border-radius: 16px;
+      }
+    }
+  }
+}
+
+.row {
+}
+
+.form_Content-send {
+  width: calc(100% - 43px) !important;
+  height: calc(100% - 93px);
+}
+.sended{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alert{
+  width: 505px;
+}

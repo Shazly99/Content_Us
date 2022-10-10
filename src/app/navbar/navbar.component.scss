@@ -1,0 +1,45 @@
+.navbar {
+//    background: #FFFFFF !important;
+  width: 100% !important;
+  height: 80.51px !important;
+
+  background-color: #1E1E46 !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.btn__form {
+  gap: 10px;
+  .btn__register {
+    background-color: #f36e32;
+    color: white;
+    font-weight: 600;
+    font-family: "Tajawal";
+    font-size: 14px !important;
+    width: 82.22px !important;
+    height: 41.67px !important;
+    border: none;
+    border-radius: 6px;
+  }
+
+  .btn__login {
+    background-color: #39395c;
+    color: white;
+    font-weight: 600;
+    font-family: "Tajawal";
+    font-size: 14px !important;
+    width: 82.22px !important;
+    height: 41.67px !important;
+    border: none;
+    border-radius: 6px;
+  }
+}
+
+.nav-link {
+  color: white;
+  font-weight: 600;
+}

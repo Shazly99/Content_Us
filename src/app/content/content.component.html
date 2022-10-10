@@ -1,0 +1,33 @@
+<div class="content__header container-fluid">
+  <div class="head__link">
+    <a routerLink="/">الرئيسيه</a>
+    <a routerLink="/content">تواصل معنا </a>
+  </div>
+  <h1 class="head">تواصــل معنـــــا</h1>
+</div>
+
+<div class=" container-form vh-100 ">
+  <div class="form  bg-white">
+      <div class="row ">
+
+        <form *ngIf="!outputData" [formGroup]="sendForm" (submit)="submit(sendForm)"  class="col-md-6 content__form">
+          <div *ngIf="notValid" class=" alert alert-primary" role="alert">
+            <strong>يرجي ادخال البيانات </strong>
+          </div>
+          <input formControlName="firstName" type="text" placeholder="الاسم كامل">
+          <input formControlName="email" type="text" placeholder="البريد الالكتروني">
+          <textarea formControlName="description" name="" id="" cols="30" rows="10"></textarea>
+           <button    class="submit_form"  >
+              إرسال
+          </button>
+        </form>
+        <div *ngIf="outputData"   class="col-md-6 content__form sended">
+          <h1> تم الارسال بنجاح</h1>
+        </div>
+          
+      <div class="col-md-6 content__map">
+        <img src="../../assets/map.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
